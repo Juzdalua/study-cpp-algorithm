@@ -39,3 +39,46 @@ int main()
     combination(-1, vec);
     return 0;
 }
+// --------------
+
+int n = 9;
+int r = 7;
+vector<int> input;
+vector<int> result;
+
+void print()
+{
+    for (int a : result)
+        cout << a << " ";
+    cout << endl;
+}
+
+void combination(int start)
+{
+    if (result.size() == r)
+    {
+        print();
+        return;
+    }
+
+    for (int i = start + 1; i < n; i++)
+    {
+        result.push_back(input[i]);
+        combination(i);
+        result.pop_back();
+    }
+}
+
+int main()
+{
+    for (int i = 0; i < n; i++)
+    {
+        int a;
+        cin >> a;
+        input.push_back(a);
+    }
+
+    combination(-1);
+
+    return 0;
+}

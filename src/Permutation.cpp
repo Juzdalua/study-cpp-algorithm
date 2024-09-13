@@ -16,15 +16,41 @@ using namespace std;
     n! / (n-r)!
 */
 
+vector<int> input = {1,2,3,4,5,6,7};
+int n = 7;
+int r = 2;
+
+void Print()
+{
+    for (int a : input)
+        cout << a << " ";
+    cout << endl;
+}
+
+void makePermutation(int n, int r, int depth){
+    if(r == depth){ 
+        Print();
+        return;
+    }
+    for(int i = depth; i < n; i++){
+        swap(input[i], input[depth]);
+        makePermutation(n, r, depth + 1);
+        swap(input[i], input[depth]);
+    }
+    return;
+}
+
 int main()
 {
-    vector<int> v = {1,2,3};
+    vector<int> v = {1,2,3,4,5,6,7};
     sort(v.begin(), v.end());
     do{
         for(int i : v) 
             cout << i << " ";
         cout << endl;
     } while(next_permutation(v.begin(), v.end()));
+
+    //makePermutation(n, r, 0);
 
     return 0;
 }
