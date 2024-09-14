@@ -11,6 +11,19 @@
         "random": "cpp",
         "chrono": "cpp",
         "functional": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "ranges": "cpp",
+        "any": "cpp",
+        "charconv": "cpp",
+        "compare": "cpp",
+        "complex": "cpp",
+        "ratio": "cpp",
+        "scoped_allocator": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "variant": "cpp",
+        "typeindex": "cpp",
+        "typeinfo": "cpp"
     }
 }
