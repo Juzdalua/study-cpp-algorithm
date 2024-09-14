@@ -31,7 +31,6 @@ int main()
     {
         psum[i] = psum[i-1] + a[i];
         cout << psum[i] << " ";
-        //cout << "i: " << i << ", psum[i-1] : " << psum[i-1] << ", a[i-1]: " << a[i-1] << ", psum[i]: "<< psum[i] << endl;
     }
 
     return 0;
