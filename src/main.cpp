@@ -16,6 +16,10 @@ using namespace std;
     경우의 수 -> 예외 생각하고 곱셈
 
     대칭 문자열 만들기 -> 홀수 2개 이상 불가능
+
+    % 연산
+    (a + b) % c = ((a % c) + (b % c)) % c
+    (a * b) % c = ((a % c) * (b % c)) % c
 */
 int main()
 {
