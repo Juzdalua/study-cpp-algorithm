@@ -28,6 +28,9 @@ using namespace std;
     % 연산
     (a + b) % c = ((a % c) + (b % c)) % c
     (a * b) % c = ((a % c) * (b % c)) % c
+
+    DFS -> 그래프 탐색 (완전탐색)
+    BFS -> 최단거리
 */
 int main()
 {

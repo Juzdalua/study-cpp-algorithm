@@ -1,6 +1,35 @@
 #include <bits/stdc++.h>
 using namespace std;
+/*
+    1. 방문체크
+    2. 이동 가능한 노드 재귀
 
+DFS(u, adj)
+{
+	u.visited = true
+	for each v ∈ adj[u]
+		if v.visited == false
+			DFS(v, adj)
+}
+
+void DFS(int here)
+{
+    visited[here] = 1;
+    for(int there : adj[here])
+	    if(visited[there]) 
+            continue;
+        DFS(there);
+}
+
+void DFS(int here)
+{
+    if(visited[here]) 
+    	return;
+    visited[here] = 1;
+    for(int there : adj[here])
+    	DFS(there);
+}
+*/
 const int n = 6;
 vector<int> adj[n];
 int visited[n];
