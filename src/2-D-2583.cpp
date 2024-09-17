@@ -19,19 +19,19 @@ vector<int> rectangle;
 
 void DFS(int y, int x)
 {
-    rectangle[rectangle.size()-1]++;
-    if(visited[y][x] == 0)
+    rectangle[rectangle.size() - 1]++;
+    if (visited[y][x] == 0)
         visited[y][x] = 1;
-        
-    for(int i=0; i<4; i++)
+
+    for (int i = 0; i < 4; i++)
     {
         int ny = y + dy[i];
         int nx = x + dx[i];
-        
-        if(ny < 0 || nx < 0 || ny >= m || nx >= n)
+
+        if (ny < 0 || nx < 0 || ny >= m || nx >= n)
             continue;
-        
-        if(a[ny][nx] == 1 && visited[ny][nx] == 0)
+
+        if (a[ny][nx] == 1 && visited[ny][nx] == 0)
             DFS(ny, nx);
     }
 }
@@ -39,54 +39,46 @@ void DFS(int y, int x)
 int main()
 {
     cin >> m >> n >> k;
-    
-    for(int i=0; i<m; i++)
+
+    for (int i = 0; i < m; i++)
     {
-        for(int j=0; j<n; j++)
+        for (int j = 0; j < n; j++)
         {
             a[i][j] = 1;
         }
     }
-    
-    for(int i=0; i<k; i++)
+
+    for (int i = 0; i < k; i++)
     {
         int lx, ly, rx, ry;
         cin >> lx >> ly >> rx >> ry;
-        
-        for(int j=lx; j< rx - 1; j++)
+
+        for (int j = m - ry; j <  m - ly; j++)
         {
-            for(int h = m-ly-1; h< m - ry; h++)
+            for (int h = lx ; h <rx; h++)
             {
                 a[j][h] = 0;
             }
         }
     }
 
-    for(int i=0; i<m; i++)
+    for (int i = 0; i < m; i++)
     {
-        for(int j=0; j<n; j++)
+        for (int j = 0; j < n; j++)
         {
-            cout << a[i][j] << " ";
-        }
-        cout << endl;
-    }
-    
-    for(int i=0; i<m; i++)
-    {
-        for(int j=0; j<n; j++)
-        {
-            if(a[i][j] == 1 && visited[i][j] == 0)
+            if (a[i][j] == 1 && visited[i][j] == 0)
             {
                 rectangle.push_back(0);
                 sector++;
-                DFS(i, j);   
+                DFS(i, j);
             }
         }
     }
-    
+
     cout << sector << '\n';
-    for(int rec : rectangle)
+    sort(rectangle.begin(), rectangle.end());
+    for (int rec : rectangle)
         cout << rec << " ";
-    
+
     return 0;
 }
