@@ -19,48 +19,49 @@ int64 n;
 int64 dp[1'000'004];
 const int64 MAX = 987654321;
 
-int64 Solution(int64 n)
+void Solution(int64 n)
 {
-    int64 &count = dp[n];
-
-    if (n == 1)
+    dp[1] = 0;
+    for (int i = 1; i <= n; i++)
     {
-        count = 0;
-        return 0;
+        if (i % 3 == 0)
+            dp[i] = min(dp[i / 3] + 1, dp[i]);
+
+        if (i % 2 == 0)
+            dp[i] = min(dp[i / 2] + 1, dp[i]);
+
+        dp[i] = min(dp[i - 1] + 1, dp[i]);
+
+        // cout << "i: "<< i << ", dp: "<<  dp[i] << endl;
     }
+    cout << dp[n] << '\n';
+}
 
-    if (n % 3 == 0)
-        count = min(count, Solution(n / 3) + 1);
+void Print(int64 n)
+{
+    if (n == 0)
+        return;
 
-    if (n % 2 == 0)
-        count = min(count, Solution(n / 2) + 1);
+    cout << n << " ";
 
-    count = min(count, Solution(n - 1) + 1);
+    if (n % 3 == 0 && dp[n] == dp[n / 3] + 1)
+        Print(n / 3);
 
-    return count;
+    else if (n % 2 == 0 && dp[n] == dp[n / 2] + 1)
+        Print(n / 2);
+
+    else if (n - 1 >= 0 && dp[n] == dp[n - 1] + 1)
+        Print(n - 1);
 }
 
 int main()
 {
     cin >> n;
     fill(dp, dp + 1'000'004, 987654321);
-    dp[0] = 0;
-    cout << Solution(n) << "\n";
 
-    int64 temp = dp[n] + 1;
-    for (int i = n; i > 0; i--)
-    {
-        if (dp[i] == MAX)
-            continue;
+   Solution(n);
 
-        //cout << "TEMP: " << temp << " / i: "<< i << " / dp[n]: " << dp[i] << endl;
-        if(temp - dp[i] == 1)
-        {
-            temp--;
-            cout << i << " ";
-        }
-    }
-
+    Print(n);
     cout << '\n';
 
     return 0;
