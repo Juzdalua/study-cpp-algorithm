@@ -47,20 +47,17 @@ int main()
     dp[0] = 0;
     cout << Solution(n) << "\n";
 
-    int cnt = -1;
-    for (int i = n - 1; i >= 0; i++)
+    int64 temp = dp[n] + 1;
+    for (int i = n; i > 0; i--)
     {
         if (dp[i] == MAX)
             continue;
 
-        if (cnt == 0)
-            break;
-
-        if (i == 0 || dp[i] == cnt - 1)
+        //cout << "TEMP: " << temp << " / i: "<< i << " / dp[n]: " << dp[i] << endl;
+        if(temp - dp[i] == 1)
         {
-            cnt = dp[i];
+            temp--;
             cout << i << " ";
-            continue;
         }
     }
 
