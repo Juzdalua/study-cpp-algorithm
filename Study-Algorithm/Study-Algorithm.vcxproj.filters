@@ -2,6 +2,6 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="소스.cpp" />
+    <ClCompile Include="7-ex-9184.cpp" />
   </ItemGroup>
 </Project>
