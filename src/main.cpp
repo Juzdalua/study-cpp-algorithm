@@ -33,6 +33,10 @@ using namespace std;
     BFS -> 최단거리
 
     n가지 무한히 사용 -> 왼쪽부터 dp를 만든다
+    for (int j = input; j <= k; j++)
+    {
+        dp[j] = min(dp[j], dp[j - input] + 1);
+    }
     n가지 1번만 사용 -> 오른쪽부터 dp를 만든다
     for (int j = k; j >= input; j--)
     {
