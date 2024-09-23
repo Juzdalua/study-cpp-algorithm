@@ -31,4 +31,20 @@
 *.out
 *.app
 
+# Visual Studio 2022
 .vs/
+*.sln
+*.suo
+*.user
+*.userprefs
+*.cache
+*.pdb
+*.ipch/
+*.obj
+*.bin
+*.log
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
