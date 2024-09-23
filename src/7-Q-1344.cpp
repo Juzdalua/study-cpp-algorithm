@@ -46,21 +46,19 @@ bool isPrime(int score)
 
 void Print()
 {
-    // 소수 득점 확률 계산
-    double primeA = 0, primeB = 0;
-    double neitherPrime = 0; // 두 팀 모두 소수 득점을 하지 않는 확률
-
     // 소수 득점 확률
-    for (int i = 0; i <= n; i++)
-    {
-        if (isPrime(i))
-        {
-            primeA += dpA[i];
-            primeB += dpB[i];
-        }
-    }
+    // double primeA = 0, primeB = 0;
+    // for (int i = 0; i <= n; i++)
+    // {
+    //     if (isPrime(i))
+    //     {
+    //         primeA += dpA[i];
+    //         primeB += dpB[i];
+    //     }
+    // }
 
     // 두 팀 모두 소수로 득점하지 않는 경우
+    double neitherPrime = 0;
     for (int i = 0; i <= n; i++)
     {
         for (int j = 0; j <= n; j++)
