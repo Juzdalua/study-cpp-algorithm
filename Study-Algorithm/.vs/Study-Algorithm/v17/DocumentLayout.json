@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E69B1F7D-7BC3-4750-8E78-28F9AC0732EC}|Study-Algorithm.vcxproj|C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\\uC18C\uC2A4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E69B1F7D-7BC3-4750-8E78-28F9AC0732EC}|Study-Algorithm.vcxproj|solutionrelative:\uC18C\uC2A4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69B1F7D-7BC3-4750-8E78-28F9AC0732EC}|Study-Algorithm.vcxproj|C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E69B1F7D-7BC3-4750-8E78-28F9AC0732EC}|Study-Algorithm.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 289,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\uC18C\uC2A4.cpp",
+              "DocumentMoniker": "C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\\uC18C\uC2A4.cpp",
+              "RelativeDocumentMoniker": "\uC18C\uC2A4.cpp",
+              "ToolTip": "C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\\uC18C\uC2A4.cpp",
+              "RelativeToolTip": "\uC18C\uC2A4.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-23T15:24:18.699Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 289,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-23T15:21:34.067Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
