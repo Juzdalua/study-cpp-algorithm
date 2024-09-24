@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E69B1F7D-7BC3-4750-8E78-28F9AC0732EC}|Study-Algorithm.vcxproj|C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\7-ex-1904.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E69B1F7D-7BC3-4750-8E78-28F9AC0732EC}|Study-Algorithm.vcxproj|solutionrelative:7-ex-1904.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{E69B1F7D-7BC3-4750-8E78-28F9AC0732EC}|Study-Algorithm.vcxproj|C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\7-ex-1912.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E69B1F7D-7BC3-4750-8E78-28F9AC0732EC}|Study-Algorithm.vcxproj|solutionrelative:7-ex-1912.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E69B1F7D-7BC3-4750-8E78-28F9AC0732EC}|Study-Algorithm.vcxproj|C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E69B1F7D-7BC3-4750-8E78-28F9AC0732EC}|Study-Algorithm.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69B1F7D-7BC3-4750-8E78-28F9AC0732EC}|Study-Algorithm.vcxproj|C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\7-ex-9461.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E69B1F7D-7BC3-4750-8E78-28F9AC0732EC}|Study-Algorithm.vcxproj|solutionrelative:7-ex-9461.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 289,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,15 +34,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "7-ex-1904.cpp",
-              "DocumentMoniker": "C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\7-ex-1904.cpp",
-              "RelativeDocumentMoniker": "7-ex-1904.cpp",
-              "ToolTip": "C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\7-ex-1904.cpp",
-              "RelativeToolTip": "7-ex-1904.cpp",
-              "ViewState": "AQIAACUAAAAAAAAAAAAqwEoAAAAlAAAA",
+              "DocumentIndex": 2,
+              "Title": "7-ex-9461.cpp",
+              "DocumentMoniker": "C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\7-ex-9461.cpp",
+              "RelativeDocumentMoniker": "7-ex-9461.cpp",
+              "ToolTip": "C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\7-ex-9461.cpp",
+              "RelativeToolTip": "7-ex-9461.cpp",
+              "ViewState": "AQIAABIAAAAAAAAAAAAUwDkAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-23T16:10:11.834Z",
+              "WhenOpened": "2024-09-24T03:27:43.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "7-ex-1912.cpp",
+              "DocumentMoniker": "C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\7-ex-1912.cpp",
+              "RelativeDocumentMoniker": "7-ex-1912.cpp",
+              "ToolTip": "C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\7-ex-1912.cpp",
+              "RelativeToolTip": "7-ex-1912.cpp",
+              "ViewState": "AQIAABQAAAAAAAAAAAAUwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-24T04:14:52.426Z",
               "EditorCaption": ""
             }
           ]
@@ -55,7 +72,7 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-23T15:21:34.067Z",
               "EditorCaption": ""
