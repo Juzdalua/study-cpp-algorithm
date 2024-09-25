@@ -8,6 +8,7 @@
     <ClCompile Include="7-ex-1912.cpp" />
     <ClCompile Include="7-ex-1149.cpp" />
     <ClCompile Include="7-ex-1932.cpp" />
+    <ClCompile Include="7-ex-2579.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.gitignore" />
