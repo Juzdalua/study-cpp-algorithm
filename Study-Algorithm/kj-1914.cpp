@@ -2,6 +2,8 @@
 #include <cstring> 
 #include <algorithm>
 #include <vector>
+#include <string>
+#include <math.h>
 using namespace std;
 
 /*
@@ -17,9 +19,45 @@ using namespace std;
 	필요한 이동순서를 출력
 	이동횟수는 최소.
 	N (1 ≤ N ≤ 100)
+
+	n = 1
+	1 -> 3
+
+	n = 2
+	1 -> 2 => temp
+	1 -> 3 => to ---> 가장 큰 원반
+	2 -> 3 => to
+
+	n = 3
+	1 -> 3 => temp
+	2 -> 2 => temp
+	3 -> 2 => temp
+	1 -> 3 => to ---> 가장 큰 원반
+	2 -> 1 => to
+	2 -> 1 => to
+	1 -> 3 => to
+
+	f(n) = 1 + 2 * f(n-1)
+	f(n) = 1 + 2 * (2^n-1 - 1) = 2^n - 1
 */
 
 int n;
+long long cnt = 0;
+
+void HanoiWithPrint(int start, int from, int temp, int to)
+{
+	if (start == 1)
+	{
+		cout << from << " " << to << '\n';
+		cnt++;
+		return;
+	}
+
+	HanoiWithPrint(start - 1, from, to, temp);
+	cout << from << " " << to << '\n';
+	cnt++;
+	HanoiWithPrint(start - 1, temp, from, to);
+}
 
 int main()
 {
@@ -29,6 +67,13 @@ int main()
 
 	cin >> n;
 
+	string result = to_string(pow(2, n));
+	result = result.substr(0, result.find('.'));
+	result[result.size() - 1] -= 1;
+	cout << result << '\n';
+
+	if (n <= 20)
+		HanoiWithPrint(n, 1, 2, 3);
 
 	return 0;
 }
