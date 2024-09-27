@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E69B1F7D-7BC3-4750-8E78-28F9AC0732EC}|Study-Algorithm.vcxproj|C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\kj-1914.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E69B1F7D-7BC3-4750-8E78-28F9AC0732EC}|Study-Algorithm.vcxproj|solutionrelative:kj-1914.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{E69B1F7D-7BC3-4750-8E78-28F9AC0732EC}|Study-Algorithm.vcxproj|C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\kj-9663.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E69B1F7D-7BC3-4750-8E78-28F9AC0732EC}|Study-Algorithm.vcxproj|solutionrelative:kj-9663.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E69B1F7D-7BC3-4750-8E78-28F9AC0732EC}|Study-Algorithm.vcxproj|C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E69B1F7D-7BC3-4750-8E78-28F9AC0732EC}|Study-Algorithm.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69B1F7D-7BC3-4750-8E78-28F9AC0732EC}|Study-Algorithm.vcxproj|C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\kj-1914.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E69B1F7D-7BC3-4750-8E78-28F9AC0732EC}|Study-Algorithm.vcxproj|solutionrelative:kj-1914.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 289,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,15 +34,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "kj-1914.cpp",
               "DocumentMoniker": "C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\kj-1914.cpp",
               "RelativeDocumentMoniker": "kj-1914.cpp",
               "ToolTip": "C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\kj-1914.cpp",
               "RelativeToolTip": "kj-1914.cpp",
-              "ViewState": "AQIAACQAAAAAAAAAAAAqwEMAAAAKAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAUwEgAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-27T08:05:05.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "kj-9663.cpp",
+              "DocumentMoniker": "C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\kj-9663.cpp",
+              "RelativeDocumentMoniker": "kj-9663.cpp",
+              "ToolTip": "C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\kj-9663.cpp",
+              "RelativeToolTip": "kj-9663.cpp",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwBoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-27T12:53:29.486Z",
               "EditorCaption": ""
             }
           ]
@@ -55,7 +72,7 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\Jun\\Desktop\\workspace\\study-cpp-algorithm\\Study-Algorithm\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-23T15:21:34.067Z",
               "EditorCaption": ""
