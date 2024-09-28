@@ -69,6 +69,15 @@
     <ClCompile Include="kj-9663.cpp">
       <Filter>kj-1</Filter>
     </ClCompile>
+    <ClCompile Include="kj-2750.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-2751.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-1181.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.gitignore" />
