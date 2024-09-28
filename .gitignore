@@ -48,3 +48,65 @@
 *.opensdf
 *.VC.db
 *.VC.opendb
+
+# Ignore IntelliSense files and other large generated files in .vs folder
+.vs/*/v*/ipch/
+.vs/*/v*/ipch/**
+
+# Ignore Visual Studio auto-generated folders and files
+.vs/
+.vscode/
+*.vcxproj.user
+*.ipch
+*.aps
+*.ncb
+*.opendb
+*.ide
+*.obj
+*.tlog
+*.log
+*.idb
+*.pgc
+*.pgd
+
+# Visual Studio generated files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+x64/
+Debug/
+Release/
+*.ilk
+*.log
+*.tlog
+*.idb
+*.pdb
+*.ipch
+
+# Project files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.vcxproj.*
+*.pdb
+
+# IntelliSense files
+*.opensdf
+*.sdf
+*.cachefile
+
+# Other files
+*.db
+*.obj
+*.exe
+*.suo
+*.pch
+*.ncb
+*.aps
+*.plg
+*.vsp
+
