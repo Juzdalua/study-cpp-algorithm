@@ -44,13 +44,15 @@ uint64 MultipleOdd(uint64 x, uint64 y, uint64(&board)[10][10])
 
 void UpdateResult()
 {
-	for (int i = 0;i < n; i++)
+	/*for (int i = 0;i < n; i++)
 	{
 		for (int j = 0; j < n; j++)
 		{
 			result[i][j] = temp[i][j];
 		}
-	}
+	}*/
+
+	memcpy(result, temp, sizeof(temp));
 }
 
 void Solution()
