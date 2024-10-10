@@ -21,7 +21,7 @@ int maxResult = INT_MIN;
 int dy[4] = { -1, 0, 1, 0 };
 int dx[4] = { 0, 1, 0, -1 };
 
-void Rotate90(int board[24][24])
+void RotateRight90(int board[24][24])
 {
 	int temp[24][24] = { 0 };
 	for (int i = 0; i < n; i++)
@@ -86,7 +86,7 @@ void Go(int count, int board[24][24])
 		MoveLeftBlock(temp);
 		Go(count + 1, temp);
 
-		Rotate90(board);
+		RotateRight90(board);
 	}
 }
 
