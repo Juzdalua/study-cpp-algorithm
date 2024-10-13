@@ -94,103 +94,25 @@ void MakeBoard()
 	val[27] = 35;
 }
 
-bool Check(int idx, int nextPos)
-{
-	for (int i = 0; i < 4; i++)
-	{
-		if (i == idx)
-			continue;
-
-		if (mal[i].second == 49)
-			continue;
-
-		if (nextPos == mal[i].second)
-			return true;
-	}
-
-	return false;
-}
-
-pair<int, int> Move(int i, int count)
-{
-	int cnt = jusawi[count];
-	int curBoard = mal[i].first;
-	int curPos = mal[i].second;
-	int nextPos = 0;
-
-	if (curPos == 5 || curPos == 10 || curPos == 15)
-		curBoard = curPos / 5;
-
-	while (cnt--)
-	{
-		if (curBoard == 0)
-		{
-			nextPos = board[curPos][0];
-		}
-		else
-		{
-			if (board[curPos].size() > 1)
-				nextPos = board[curPos].back();
-			else
-				nextPos = board[curPos][0];
-		}
-
-		if (nextPos == 49)
-		{
-			return { 0, 49 };
-		}
-	}
-	return { curBoard, nextPos };
-}
+//bool Check(int idx, int nextPos)
+//{
+//	
+//}
+//
+//pair<int, int> Move(int i, int count)
+//{
+//	
+//}
 
 void Go(int count)
 {
-	if (count >= 10)
-	{
-		maxResult = max(maxResult, sum);
-		//cout << "End -> " << sum << '\n';
-		return;
-	}
-
-	for (int i = 0; i < 4; i++)
-	{
-		// 도착여부 체크
-		if (mal[i].second == 49)
-			continue;
-
-		// 주사위만큼 이동
-		int curBoard = mal[i].first;
-		int curPos = mal[i].second;
-		int nextPos = curPos;
-		int nextBoard = curBoard;
-
-		if (curBoard == 0)
-			nextPos += jusawi[count];
-		else
-			tie(nextBoard, nextPos) = Move(i, count);
-
-		// 다음 위치에 말이 있는지 체크
-		if (Check(i, nextPos))
-			continue;
-
-		//cout << "Jusawi: " << jusawi[count] << ", Mal -> " << i << ", Cur Pos: " << mal[i].second << ", Next Pos: " << nextPos << '\n';
-
-		// 백트래킹
-		pair<int, int> temp = mal[i];
-		mal[i] = { nextBoard, nextPos };
-		sum += val[nextPos];
-
-		Go(count + 1);
-
-		mal[i] = temp;
-		sum -= val[nextPos];
-	}
+	
 }
 
 void Solution()
 {
 	MakeBoard();
-	//PrintBoard();
+	PrintBoard();
 	Go(0);
 
 	cout << maxResult << '\n';
