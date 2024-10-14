@@ -27,14 +27,15 @@ using namespace std;
 */
 
 int jusawi[14];
-vector<vector<int>> board(44);
-int val[50];
-pair<int, int> mal[5]; // board, pos
+vector<vector<int>> board(104);
+int val[104];
+int mal[5]; // board, pos
 int sum;
 int maxResult = INT_MIN;
 
 void PrintBoard()
 {
+	cout << "== Board ==" << '\n';
 	for (int i = 0; i < 44; i++)
 	{
 		if (board[i].size() == 0)
@@ -52,67 +53,139 @@ void PrintBoard()
 			cout << board[i][0];
 		cout << '\n';
 	}
+
+	cout << "== Value ==" << '\n';
+	for (int i = 0; i <= 100; i++)
+	{
+		if (val[i] == 0)
+			continue;
+		cout << "Val[" << i << "]: " << val[i] << '\n';
+	}
+	cout << '\n';
 }
 
 void MakeBoard()
 {
 	// 빨간 보드
-	for (int i = 0; i <= 20; i++)
+	for (int i = 0; i < 20; i++)
 		board[i].push_back(i + 1);
-	board[21].push_back(49);
+	board[20].push_back(100);
 
-	// 10
-	board[5].push_back(22);
-	board[22].push_back(8);
-	board[8].push_back(23);
-	board[23].push_back(24);
+	for(int i=21; i<26; i++)
+		board[i].push_back(i + 1);
 
-	// 20
-	board[10].push_back(11);
-	board[11].push_back(12);
-	board[12].push_back(24);
+	board[27].push_back(28);
+	board[29].push_back(30);
+	board[30].push_back(31);
 
-	// 30
-	board[15].push_back(14);
-	board[14].push_back(25);
-	board[25].push_back(13);
-	board[13].push_back(24);
+	board[5].push_back(21); // 10-13
+	board[10].push_back(27); // 20-22
+	board[15].push_back(29); // 30-28
+	board[26].push_back(20); // 35-40
 
-	// 25
-	board[24].push_back(26);
-	board[26].push_back(27);
-	board[27].push_back(20);
+	board[28].push_back(24); // 24-25
+	board[31].push_back(24); // 26-25
 
-	val[49] = 0;
-	for (int i = 1; i < 20; i++)
+	for (int i = 1; i <= 20; i++)
 		val[i] = i * 2;
-	val[22] = 13;
+	val[21] = 13;
+	val[22] = 16;
 	val[23] = 19;
 	val[24] = 25;
-	val[25] = 27;
-	val[26] = 30;
-	val[27] = 35;
+	val[25] = 30;
+	val[26] = 35;
+
+	val[27] = 22;
+	val[28] = 24;
+
+	val[29] = 28;
+	val[30] = 27;
+	val[31] = 26;
 }
 
-//bool Check(int idx, int nextPos)
-//{
-//	
-//}
-//
-//pair<int, int> Move(int i, int count)
-//{
-//	
-//}
+bool Check(int nextPos)
+{
+	if (nextPos == 100)
+		return false;
+
+	for (int i = 0; i < 4; i++)
+	{
+		if (mal[i] == 100)
+			continue;
+
+		if (mal[i] == nextPos)
+			return true;
+	}
+	return false;
+}
+
+int Move(int i, int count)
+{
+	int addPos = jusawi[count];
+
+	int startPos = mal[i];
+	int curPos = startPos;
+	int nextPos = curPos;
+
+	while (addPos--)
+	{
+		// 파랑 화살표 시작
+		if (curPos == startPos && (startPos == 5 || startPos == 10 || startPos == 15))
+			nextPos = board[curPos][1];
+		else
+			nextPos = board[curPos][0];
+
+		if (nextPos == 100)
+			break;
+
+		curPos = nextPos;
+	}
+	return nextPos;
+}
 
 void Go(int count)
 {
-	
+	if (count >= 10)
+	{
+		//cout << "End -> " << sum << '\n';
+		maxResult = max(maxResult, sum);
+		return;
+	}
+
+	for (int i = 0; i < 4; i++)
+	{
+		// 도착한 말인지 체크
+		if (mal[i] == 100)
+			continue;
+
+		// 시작지점 체크 -파랑, 빨강
+		int nextPos = Move(i, count);
+
+		// 주사위 칸에 말이 있는지 체크
+		if (Check(nextPos))
+			continue;
+
+		// temp
+		int temp = mal[i];
+
+		//cout<<"Count: " << count << ", Mal: " << i << ", Jusawi: " << jusawi[count] << ", Val: " << val[nextPos] << ", CurPos: " << mal[i]  << ", NextPos: " << nextPos << '\n';
+
+		// 이동
+		mal[i] = nextPos;
+		sum += val[nextPos];
+
+		Go(count + 1);
+
+		// 백트래킹
+		mal[i] = temp;
+		sum -= val[nextPos];
+	}
 }
 
 void Solution()
 {
 	MakeBoard();
-	PrintBoard();
+	//PrintBoard();
 	Go(0);
 
 	cout << maxResult << '\n';
