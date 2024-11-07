@@ -16,14 +16,8 @@ using namespace std;
 int n;
 int dp[100004];
 
-int main()
+void Solution()
 {
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-	cout.tie(NULL);
-
-	cin >> n;
-
 	dp[0] = -1;
 	dp[1] = -1;
 	dp[2] = 1;
@@ -41,6 +35,40 @@ int main()
 	}
 
 	cout << dp[n] << '\n';
+	exit(0);
+}
+
+void Solution2()
+{
+	int result = 0;
+	while (true)
+	{
+		if (n == 1)
+		{
+			cout << -1 << '\n';
+			exit(0);
+		}
+		if (n % 5 == 0)
+		{
+			result += n / 5;
+			cout << result << '\n';
+			exit(0);
+		}
+		
+		n -= 2;
+		result++;
+	}
+}
+
+int main()
+{
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
+
+	cin >> n;
+	//Solution();
+	Solution2();
 
 	return 0;
 }
