@@ -88,11 +88,11 @@ Release/
 *.ipch
 
 # Project files
-*.vcxproj
-*.vcxproj.filters
-*.vcxproj.user
-*.vcxproj.*
-*.pdb
+# *.vcxproj
+# *.vcxproj.filters
+# *.vcxproj.user
+# *.vcxproj.*
+# *.pdb
 
 # IntelliSense files
 *.opensdf

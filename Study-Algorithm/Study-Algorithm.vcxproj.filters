@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="codility-ex-1.cpp" />
+    <ClCompile Include="7-ex-1149.cpp">
+      <Filter>dp-1</Filter>
+    </ClCompile>
+    <ClCompile Include="7-ex-1463.cpp">
+      <Filter>dp-1</Filter>
+    </ClCompile>
+    <ClCompile Include="7-ex-1904.cpp">
+      <Filter>dp-1</Filter>
+    </ClCompile>
+    <ClCompile Include="7-ex-1912.cpp">
+      <Filter>dp-1</Filter>
+    </ClCompile>
+    <ClCompile Include="7-ex-1932.cpp">
+      <Filter>dp-1</Filter>
+    </ClCompile>
+    <ClCompile Include="7-ex-2156.cpp">
+      <Filter>dp-1</Filter>
+    </ClCompile>
+    <ClCompile Include="7-ex-2579.cpp">
+      <Filter>dp-1</Filter>
+    </ClCompile>
+    <ClCompile Include="7-ex-9184.cpp">
+      <Filter>dp-1</Filter>
+    </ClCompile>
+    <ClCompile Include="7-ex-9461.cpp">
+      <Filter>dp-1</Filter>
+    </ClCompile>
+    <ClCompile Include="7-ex-10844.cpp">
+      <Filter>dp-1</Filter>
+    </ClCompile>
+    <ClCompile Include="7-ex-11053.cpp">
+      <Filter>dp-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-2562.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-2739.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-9498.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-15596.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-11654.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-2675.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-1978.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-9020.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-10872.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-1914.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-9663.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-2750.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-2751.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-1181.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-10971.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-1920.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-2805.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-8983.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-2630.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-10830.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-10828.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-2493.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-2504.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-11866.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-18258.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-3190.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-11279.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-1655.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-13334.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj-1085.cpp">
+      <Filter>kj-1</Filter>
+    </ClCompile>
+    <ClCompile Include="kj2-5639.cpp">
+      <Filter>kj-2</Filter>
+    </ClCompile>
+    <ClCompile Include="kj2-1991.cpp">
+      <Filter>kj-2</Filter>
+    </ClCompile>
+    <ClCompile Include="2-g-2910.cpp">
+      <Filter>week 2</Filter>
+    </ClCompile>
+    <ClCompile Include="2-h-4659.cpp">
+      <Filter>week 2</Filter>
+    </ClCompile>
+    <ClCompile Include="2-i-2870.cpp">
+      <Filter>week 2</Filter>
+    </ClCompile>
+    <ClCompile Include="2-j-10709.cpp">
+      <Filter>week 2</Filter>
+    </ClCompile>
+    <ClCompile Include="2-k-3474.cpp">
+      <Filter>week 2</Filter>
+    </ClCompile>
+    <ClCompile Include="2-l-2852.cpp">
+      <Filter>week 2</Filter>
+    </ClCompile>
+    <ClCompile Include="2-m-1436.cpp">
+      <Filter>week 2</Filter>
+    </ClCompile>
+    <ClCompile Include="2-n-9012.cpp">
+      <Filter>week 2</Filter>
+    </ClCompile>
+    <ClCompile Include="2-o-4949.cpp">
+      <Filter>week 2</Filter>
+    </ClCompile>
+    <ClCompile Include="2-p-14502.cpp">
+      <Filter>week 2</Filter>
+    </ClCompile>
+    <ClCompile Include="2-q-2636.cpp">
+      <Filter>week 2</Filter>
+    </ClCompile>
+    <ClCompile Include="2-r-1068.cpp">
+      <Filter>week 2</Filter>
+    </ClCompile>
+    <ClCompile Include="2-s-1325.cpp">
+      <Filter>week 2</Filter>
+    </ClCompile>
+    <ClCompile Include="2-t-17298.cpp">
+      <Filter>week 2</Filter>
+    </ClCompile>
+    <ClCompile Include="3-c-16234.cpp">
+      <Filter>week 3</Filter>
+    </ClCompile>
+    <ClCompile Include="3-d-4179.cpp">
+      <Filter>week 3</Filter>
+    </ClCompile>
+    <ClCompile Include="3-e-12869.cpp">
+      <Filter>week 3</Filter>
+    </ClCompile>
+    <ClCompile Include="3-f-16637.cpp">
+      <Filter>week 3</Filter>
+    </ClCompile>
+    <ClCompile Include="3-g-12851.cpp">
+      <Filter>week 3</Filter>
+    </ClCompile>
+    <ClCompile Include="3-h-13913.cpp">
+      <Filter>week 3</Filter>
+    </ClCompile>
+    <ClCompile Include="3-i-17071.cpp">
+      <Filter>week 3</Filter>
+    </ClCompile>
+    <ClCompile Include="3-j-14497.cpp">
+      <Filter>week 3</Filter>
+    </ClCompile>
+    <ClCompile Include="3-k-1987.cpp">
+      <Filter>week 3</Filter>
+    </ClCompile>
+    <ClCompile Include="3-m-2529.cpp">
+      <Filter>week 3</Filter>
+    </ClCompile>
+    <ClCompile Include="3-n-9934.cpp">
+      <Filter>week 3</Filter>
+    </ClCompile>
+    <ClCompile Include="3-p-14620.cpp">
+      <Filter>week 3</Filter>
+    </ClCompile>
+    <ClCompile Include="3-q-1189.cpp">
+      <Filter>week 3</Filter>
+    </ClCompile>
+    <ClCompile Include="5-g-1644.cpp">
+      <Filter>week 5</Filter>
+    </ClCompile>
+    <ClCompile Include="codility-ex-2.cpp" />
+    <ClCompile Include="5-h-13144.cpp">
+      <Filter>week 5</Filter>
+    </ClCompile>
+    <ClCompile Include="5-i-3273.cpp">
+      <Filter>week 5</Filter>
+    </ClCompile>
+    <ClCompile Include="5-k-17144.cpp">
+      <Filter>week 5</Filter>
+    </ClCompile>
+    <ClCompile Include="5-l-14889.cpp">
+      <Filter>week 5</Filter>
+    </ClCompile>
+    <ClCompile Include="5-m-12100.cpp">
+      <Filter>week 5</Filter>
+    </ClCompile>
+    <ClCompile Include="5-n-3190.cpp">
+      <Filter>week 5</Filter>
+    </ClCompile>
+    <ClCompile Include="5-o-17406.cpp">
+      <Filter>week 5</Filter>
+    </ClCompile>
+    <ClCompile Include="5-p-15662.cpp">
+      <Filter>week 5</Filter>
+    </ClCompile>
+    <ClCompile Include="5-q-1911.cpp">
+      <Filter>week 5</Filter>
+    </ClCompile>
+    <ClCompile Include="5-r-17825.cpp">
+      <Filter>week 5</Filter>
+    </ClCompile>
+    <ClCompile Include="b-1-1330.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-2-10718.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-3-2438.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-4-2753.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-5-2439.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-6-8393.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-7-10950.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-8-14681.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-9-10871.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-10-10952.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-11-10818.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-12-2741.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-13-11021.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-14-11022.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-15-10951.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-16-15552.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-17-11720.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-18-2742.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-19-1152.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-20-10809.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-21-1110.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="5-s-14888.cpp">
+      <Filter>week 5</Filter>
+    </ClCompile>
+    <ClCompile Include="5-t-17143.cpp">
+      <Filter>week 5</Filter>
+    </ClCompile>
+    <ClCompile Include="b-22-2480.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-22-2577.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-23-1157.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-24-8958.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-25-2908.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-26-10807.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-27-25304.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-28-5622.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-29-2558.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-30-11718.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="b-31-25083.cpp">
+      <Filter>implementation-b</Filter>
+    </ClCompile>
+    <ClCompile Include="s-1-1316.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="s-2-2941.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="5-u-15685.cpp">
+      <Filter>week 5</Filter>
+    </ClCompile>
+    <ClCompile Include="5-v-2632.cpp">
+      <Filter>week 5</Filter>
+    </ClCompile>
+    <ClCompile Include="5-x-15683.cpp">
+      <Filter>week 5</Filter>
+    </ClCompile>
+    <ClCompile Include="s-3-4673.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="s-4-1193.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="s-5-10773.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="s-6-7568.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="s-7-1158.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="s-8-10866.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="s-9-2563.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="5-y-17822.cpp">
+      <Filter>week 5</Filter>
+    </ClCompile>
+    <ClCompile Include="s-10-1966.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="5-z-2170.cpp">
+      <Filter>week 5</Filter>
+    </ClCompile>
+    <ClCompile Include="7-c-1103.cpp">
+      <Filter>week7</Filter>
+    </ClCompile>
+    <ClCompile Include="s-11-2108.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="ss-13460.cpp">
+      <Filter>samsung</Filter>
+    </ClCompile>
+    <ClCompile Include="s-12-11723.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="s-13-25206.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="ss-13458.cpp">
+      <Filter>samsung</Filter>
+    </ClCompile>
+    <ClCompile Include="7-d-2240.cpp">
+      <Filter>week7</Filter>
+    </ClCompile>
+    <ClCompile Include="7-i-4781.cpp">
+      <Filter>week7</Filter>
+    </ClCompile>
+    <ClCompile Include="s-14-1475.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="s-15-17478.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="s-16-17413.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="ss-14499.cpp">
+      <Filter>samsung</Filter>
+    </ClCompile>
+    <ClCompile Include="s-17-2167.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="7-j-12865.cpp">
+      <Filter>week7</Filter>
+    </ClCompile>
+    <ClCompile Include="ss-14500.cpp">
+      <Filter>samsung</Filter>
+    </ClCompile>
+    <ClCompile Include="7-k-1513.cpp">
+      <Filter>week7</Filter>
+    </ClCompile>
+    <ClCompile Include="s-18-18111.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="ss-14501.cpp">
+      <Filter>samsung</Filter>
+    </ClCompile>
+    <ClCompile Include="7-m-16235.cpp">
+      <Filter>week7</Filter>
+    </ClCompile>
+    <ClCompile Include="7-n-17136.cpp">
+      <Filter>week7</Filter>
+    </ClCompile>
+    <ClCompile Include="7-o-17837.cpp">
+      <Filter>week7</Filter>
+    </ClCompile>
+    <ClCompile Include="s-19-2960.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="s-20-1260.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="s-21-1197.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="s-22-1244.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="s-23-14503.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="s-24-3085.cpp">
+      <Filter>implementation-s</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-2747.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-2748.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-2775.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-9095.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-1003.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-11726.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-1010.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-11727.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="ss-14890.cpp">
+      <Filter>samsung</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-2193.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-11660.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-9465.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-11052.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-11057.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-11055.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-9655.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-1699.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-11722.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-11051.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="ss-16236.cpp">
+      <Filter>samsung</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-1309.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-11048.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-1890.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-17626.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-14916.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-15988.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-1965.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-9656.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-10826.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dp-9625.cpp">
+      <Filter>dp</Filter>
+    </ClCompile>
+    <ClCompile Include="exam-2884.cpp">
+      <Filter>exam</Filter>
+    </ClCompile>
+    <ClCompile Include="ex-1546.cpp">
+      <Filter>exam</Filter>
+    </ClCompile>
+    <ClCompile Include="ex-3052.cpp">
+      <Filter>exam</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.gitignore" />
+    <None Include="..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="dp-1">
+      <UniqueIdentifier>{448e842e-aaa1-4ee5-b80f-2488dd2c1055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kj-1">
+      <UniqueIdentifier>{e5d3fde5-ae22-4028-8c35-0b8feb7031d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kj-2">
+      <UniqueIdentifier>{ec04d1f7-c934-474d-9c0d-d85a2926dcef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="week 3">
+      <UniqueIdentifier>{b4ceaa23-7f15-4034-a76d-0236a95882bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="week 2">
+      <UniqueIdentifier>{b253fd62-e2d6-4e89-9156-fc5bcce222b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="week 5">
+      <UniqueIdentifier>{17a2e3e8-2597-4963-a1c6-c4ad02759fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implementation-b">
+      <UniqueIdentifier>{d863bc5f-9bf7-4262-99b6-c4f9bfeaaf2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implementation-s">
+      <UniqueIdentifier>{88d13baa-15c3-42ca-9fe7-fdde8336ddc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="week7">
+      <UniqueIdentifier>{f4b21f68-aa92-44b1-a1a6-ab2541cce3a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samsung">
+      <UniqueIdentifier>{17fa318c-5e68-4040-8faa-22ff730833b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dp">
+      <UniqueIdentifier>{783b6459-2a43-4c45-9feb-51c2852eb0cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exam">
+      <UniqueIdentifier>{bad75133-9c5f-485c-b15c-772e3c926582}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
