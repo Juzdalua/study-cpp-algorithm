@@ -614,6 +614,9 @@
     <ClCompile Include="ex-1753.cpp">
       <Filter>exam</Filter>
     </ClCompile>
+    <ClCompile Include="ex-2164.cpp">
+      <Filter>exam</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.gitignore" />
