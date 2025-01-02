@@ -657,8 +657,8 @@
       <Filter>exam</Filter>
     </ClCompile>
     <ClCompile Include="exam-date-sub.cpp">
-		<Filter>exam</Filter>
-	</ClCompile>
+      <Filter>exam</Filter>
+    </ClCompile>
     <ClCompile Include="ex-2231.cpp">
       <Filter>exam</Filter>
     </ClCompile>
@@ -681,6 +681,9 @@
       <Filter>exam</Filter>
     </ClCompile>
     <ClCompile Include="ex-2609.cpp">
+      <Filter>exam</Filter>
+    </ClCompile>
+    <ClCompile Include="ex-11659.cpp">
       <Filter>exam</Filter>
     </ClCompile>
   </ItemGroup>
