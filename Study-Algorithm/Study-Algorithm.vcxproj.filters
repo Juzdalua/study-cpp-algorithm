@@ -657,6 +657,30 @@
       <Filter>exam</Filter>
     </ClCompile>
     <ClCompile Include="exam-date-sub.cpp">
+		<Filter>exam</Filter>
+	</ClCompile>
+    <ClCompile Include="ex-2231.cpp">
+      <Filter>exam</Filter>
+    </ClCompile>
+    <ClCompile Include="ex-2440.cpp">
+      <Filter>exam</Filter>
+    </ClCompile>
+    <ClCompile Include="ex-10870.cpp">
+      <Filter>exam</Filter>
+    </ClCompile>
+    <ClCompile Include="ex-25314.cpp">
+      <Filter>exam</Filter>
+    </ClCompile>
+    <ClCompile Include="ex-10250.cpp">
+      <Filter>exam</Filter>
+    </ClCompile>
+    <ClCompile Include="ex-10989.cpp">
+      <Filter>exam</Filter>
+    </ClCompile>
+    <ClCompile Include="ex-10817.cpp">
+      <Filter>exam</Filter>
+    </ClCompile>
+    <ClCompile Include="ex-2609.cpp">
       <Filter>exam</Filter>
     </ClCompile>
   </ItemGroup>
