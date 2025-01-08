@@ -12,10 +12,17 @@ using namespace std;
 */
 
 string s1, s2;
-vector<string> dp[1'004];
+//vector<string> dp[1'004];
+map<string, int> dpm;
 int maxLen = INT_MIN;
 
-void combi(int start, int idx, int len, vector<char>& v, string& s)
+enum
+{
+	S1 = 0,
+	S2 = 1
+};
+
+void combi(int start, int idx, int len, vector<char>& v, string& s, int type)
 {
 	if (v.size() == len)
 	{
@@ -26,8 +33,20 @@ void combi(int start, int idx, int len, vector<char>& v, string& s)
 			//cout << vv << " ";
 		}
 		//cout << '\n';
-		
-		dp[start].push_back(s);
+
+		if (type == S1)
+		{
+			//dp[start].push_back(s);
+			dpm[s]++;
+		}
+		else
+		{
+			if (dpm[s] != 0)
+			{
+				//cout << "S -> " << s << '\n';
+				maxLen = max(maxLen, static_cast<int>(s.size()));
+			}
+		}
 
 		return;
 	}
@@ -35,7 +54,7 @@ void combi(int start, int idx, int len, vector<char>& v, string& s)
 	for (int i = idx + 1; i < s.size(); i++)
 	{
 		v.push_back(s[i]);
-		combi(start, i, len, v, s1);
+		combi(start, i, len, v, s, type);
 		v.pop_back();
 	}
 }
@@ -56,23 +75,32 @@ int main()
 
 		for (int j = 1; j <= s1.size() - i; j++)
 		{
-			combi(i, i, j, v, s1);
+			combi(i, i, j, v, s1, S1);
 		}
 	}
 
 	for (int i = 0; i < s1.size(); i++)
 	{
-		for (auto& s : dp[i])
+		for (auto& s : dpm)
 		{
-			cout << s << '\n';
+			//cout << s << '\n';
+			if (static_cast<int>(s.first.size()) <= maxLen) continue;
 
-			if (s.size() <= maxLen) continue;
+			for (int j = 0; j < s2.size(); j++)
+			{
+				char now = s2[j];
+				vector<char> v;
+				v.push_back(now);
 
-
-
-			maxLen = max(maxLen, static_cast<int>(s.size()));
+				for (int k = 1; k <= s2.size() - j; k++)
+				{
+					combi(j, j, k, v, s2, S2);
+				}
+			}
 		}
 	}
+
+	cout << maxLen << '\n';
 
 	return 0;
 }
