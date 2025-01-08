@@ -70,7 +70,6 @@ int main()
 
 
 
-
 			maxLen = max(maxLen, static_cast<int>(s.size()));
 		}
 	}
