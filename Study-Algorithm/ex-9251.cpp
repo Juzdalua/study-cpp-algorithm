@@ -69,7 +69,6 @@ int main()
 			if (s.size() <= maxLen) continue;
 
 
-
 			maxLen = max(maxLen, static_cast<int>(s.size()));
 		}
 	}
