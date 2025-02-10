@@ -11,27 +11,28 @@ using namespace std;
 */
 
 int n, r, c;
-int cnt = -1;
-int dy[3] = { 0, 1, 0 };
-int dx[3] = { 1, -1, 1 };
+long long result;
 
-pair<int, int> Z(int y, int x)
+int dy[4] = { 0,0, 1, 0 };
+int dx[4] = { 0,1,-1,1 };
+
+int SetResult()
 {
-	int ny, nx = 0;
+	int mid = pow(2, n-1);
 
-	for (int i = 0; i < 3; i++)
+	if (r >= mid)
 	{
-		ny = y + dy[i];
-		nx = x + dx[i];
-
-		cnt++;
-		if (ny == r && nx == c)
-		{
-			cout << cnt << '\n';
-			exit(0);
-		}
+		result += pow(mid, 2) * 2;
 	}
-	return { ny, nx };
+	if (c >= mid)
+	{
+		result += pow(mid, 2);
+	}
+
+	r %= mid;
+	c %= mid;
+
+	return mid;
 }
 
 int main()
@@ -41,22 +42,43 @@ int main()
 	cout.tie(NULL);
 
 	cin >> n >> r >> c;
+	
+	int len = SetResult();
+	//cout << r << " " << c << " "<<result<< '\n';
 
-	int end = pow(2, n) - 1;
-	int mid = pow(2, n - 1) - 1;
-
-	for (pair<int, int> pos : vector<pair<int, int>>{ {0,0}, {0,mid + 1}, {mid + 1, 0}, {mid + 1, mid + 1} })
+	int x = 0;
+	int y = 0;
+	if (r == 0 && c == 0)
 	{
-		cnt++;
-		auto [y, x] = pos;
-		auto [ny, nx] = Z(y, x);
+		cout << result << '\n';
+		exit(0);
+	}
 
-		if (ny == mid && nx == mid) continue;
-		if (ny == mid && nx == end) continue;
-		if (ny == end && nx == mid) continue;
-		if (ny == end && nx == end) continue;
-
+	while (true)
+	{
+		for (int i = 0; i < 4; i++)
+		{
+			//cout << "Result -> " << result << ", (" << y << ", " << x << ")" << '\n';
+			y += dy[i];
+			x += dx[i];
+			if (y == r && x == c) 
+			{
+				cout << result << '\n';
+				exit(0);
+			}
+			result++;
+		}
 		
+		if (x < len - 1)
+		{
+			x++;
+			y--;
+		}
+		else
+		{
+			x = 0;
+			y++;
+		}
 	}
 
 	return 0;
